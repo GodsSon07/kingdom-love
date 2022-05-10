@@ -1,0 +1,80 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(tech2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+
+}
+
+hr {
+    margin: 20px auto;
+    color:#05e2ff;
+    border: 3px solid #fff;
+    max-width: 65px;
+    opacity: 1;
+
+}
+
+.buffer{
+
+  height:10rem;
+}
+
+a:link { text-decoration: none; }
+
+a{
+  text-decoration: none;
+  
+}
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.btn{
+  
+  font-weight: 700 ;
+  border-radius: 300px;
+}
+.btn-outline-info{
+  text-decoration-color: whitesmoke;
+  
+}
+
+.btn-outline-info:hover{
+
+border-width: 4px;
+background-color:  #fff;
+border-color:  #fff;
+
+
+}
+
+
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
